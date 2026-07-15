@@ -219,18 +219,6 @@ JMP_HOOK(0x10F1B5AD, DisableLockRectRelease) {
     }
 }
 
-bool Rendering::IsWine() {
-    static const char* (CDECL * pwine_get_version)(void);
-    HMODULE hntdll = GetModuleHandle(L"ntdll.dll");
-    if (!hntdll)
-    {
-        return false;
-    }
-
-    auto gwv = (void*)GetProcAddress(hntdll, "wine_get_version");
-    return gwv;
-}
-
 // A simplified rewrite of the original PopHit implementation
 bool CheckHit(UViewport* viewport) {
     const RECT hitBox = {
@@ -381,10 +369,5 @@ void Rendering::Initialize()
     uint8_t nops[] = { 0x90, 0x90, 0x90, 0x90 };
 
     // Fix lighting
-    if (IsWine()) {
-        // TODO
-    }
-    else {
-        MemoryWriter::WriteBytes(0x111A5B27, nops, 2);
-    }
+    MemoryWriter::WriteBytes(0x111A5B27, nops, 2);
 }

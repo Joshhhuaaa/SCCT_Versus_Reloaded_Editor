@@ -7,7 +7,6 @@ class Rendering
 {
 public:
 	static void Initialize();
-    static bool IsWine();
 };
 
 #define D3DX_PI    (3.14159265358979323846)

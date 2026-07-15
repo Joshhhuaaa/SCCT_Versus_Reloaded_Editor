@@ -16,7 +16,7 @@
 constexpr const char editor_header_prefix[] = "Reloaded Chaos Theory Editor";
 constexpr const char verbose_save_message[] = "\n\nThe current version of the map will be rebuilt before saving.";
 constexpr const char editor_header[] = "v%.1f] - [%s";
-constexpr const float editor_version = 1.1f;
+constexpr const float editor_version = 1.2f;
 
 constexpr uint32_t LIGHTMAP_MAX_RES = 512; // default: 256
 

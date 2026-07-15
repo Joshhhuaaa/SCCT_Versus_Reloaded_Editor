@@ -11,8 +11,8 @@ The Reloaded Editor removes the long delay that occurs when selecting objects in
 <div align="center">
   <table>
     <tr>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/fcb4655e-bc66-4337-ac5f-090eb4954dbe"></td>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/fbb091bb-f12d-42f7-b708-629bf5f0ad0f"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/b7e62711-54ec-40a1-a4f4-4a2d7a29b4ff"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/e6678ff8-3d73-42ed-9104-5e05bcd055ef"></td>
     </tr>
     <tr>
       <td align="center">Stock</td>
@@ -26,8 +26,8 @@ Echelon lights (those using `LightEffect=LT_ESpotShadow` in the editor) do not r
 <div align="center">
   <table>
     <tr>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/380bcf95-f693-4018-8bfd-4dead29486dc"></td>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/91604cd8-0008-4c06-9043-161ae26b2185"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/4b2d0246-b865-4cf8-995c-d19209188e7b"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/112e32fc-0572-40c4-9761-4acbc71be45e"></td>
     </tr>
     <tr>
       <td align="center">Stock</td>
@@ -41,8 +41,8 @@ The Reloaded Editor increases all selectable lightmap resolutions by 2x. The pre
 <div align="center">
   <table>
     <tr>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/cff3cdca-656e-4028-bcf6-38f17c5fb287"></td>
-      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/98f707c4-3eee-4737-99d6-ef2483c4b763"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/eafc2ff9-dc05-479a-aa8e-07718d1ba12d"></td>
+      <td width="50%"><img style="width:100%" src="https://github.com/user-attachments/assets/262e1139-fd49-4ef0-85ff-d69a91699352"></td>
     </tr>
     <tr>
       <td align="center">Stock</td>

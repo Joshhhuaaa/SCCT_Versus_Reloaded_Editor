@@ -19,6 +19,7 @@
 #include "AnimationBrowser.h"
 #include "AmbientSoundZone.h"
 #include "WindowDriftFix.h"
+#include "DeintersectFix.h"
 
 INIT_ONCE g_InitOnce = INIT_ONCE_STATIC_INIT;
 HINSTANCE g_hReloadedDll = nullptr;
@@ -125,6 +126,7 @@ BOOL CALLBACK InitFunction(PINIT_ONCE InitOnce, PVOID Parameter, PVOID* Context)
     AnimationBrowser::Initialize();
     AmbientSoundZone::Initialize();
     WindowDriftFix::Initialize();
+    DeintersectFix::Initialize();
 
 #ifdef _DEBUG
     Debug::Initialize();
